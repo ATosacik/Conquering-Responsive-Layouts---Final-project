@@ -7,8 +7,8 @@ You can find more information on the course [here](https://courses.kevinpowell.c
 
 ## Project Overview
 
-[here](https://atosacik.github.io/Conquering-Responsive-Layouts---Final-project/)
 This project was created for practice to enhance my web development skills. I implemented HTML, CSS, and JS to build a responsive website.
+Project Overview: [here](https://atosacik.github.io/Conquering-Responsive-Layouts---Final-project/).
 
 ## License
 
