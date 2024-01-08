@@ -261,6 +261,11 @@ select {
   text-decoration: none;
 }
 
+.nav__link:focus,
+.nav__link:hover {
+  opacity: .75;
+}
+
 /* * header */
 
 header {
