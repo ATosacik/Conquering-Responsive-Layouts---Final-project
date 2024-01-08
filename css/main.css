@@ -401,6 +401,11 @@ footer {
   text-decoration: none;
 }
 
+.main-button:hover,
+.main-button:focus {
+  opacity: .75;
+}
+
 .main-card {
   display: flex;
   flex-direction: column;
