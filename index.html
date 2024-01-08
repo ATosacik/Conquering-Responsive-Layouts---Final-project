@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <!-- Title -->
+  <title>Conquering Responsive Layouts</title>
+  <!-- Css -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- JavaScript -->
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <nav class="nav bg--clr-primary-1 ff-primary-2 fw-700 fs-500 uppercase" data-visible="false">
+    <div class="container container--nav flex">
+      <a href="./index.html">
+        <img class="logo" src="./imgs/logo.svg" alt="logo">
+      </a>
+      <div class="nav__links flex">
+        <a href="#" class="nav__link txt--clr-neutral-1">home</a>
+        <a href="#" class="nav__link txt--clr-neutral-1">about</a>
+        <a href="#" class="nav__link txt--clr-neutral-1">contact</a>
+        <a href="#" class="nav__link txt--clr-neutral-1">sign in</a>
+        <a href="#" class="nav__link main-button txt--clr-neutral-1">sign up</a>
+      </div>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="toggle-navigation">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+      </button>
+    </div>
+  </nav>
+
+  <header class="bg--clr-primary-2">
+    <div class="container">
+      <div class="header__content flex flex--even-cols" style="gap: 2rem;">
+        <h1 class="fs-1000 txt--clr-neutral-1 ff-primary-2 fw-700">Responsive
+          layouts <span class="txt--clr-neutral-2">don’t have to be a struggle</span></h1>
+        <div class="header__text flex flex--column" style="gap: 2rem;">
+          <p class="ff-primary-1 txt--clr-neutral-1 fw-400 fs-700">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="main-button txt--clr-neutral-1 ff-primary-2 fw-700 fs-700">i want to learn</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="main__container-1 bg--clr-neutral-2" style="--bg-alpha: .1;">
+      <div class="container flex flex--even-cols flex--column">
+        <div class="main-text-box">
+          <h2 class="txt--clr-neutral-2 fs-800 ff-primary-2">Mobile-first</h2>
+          <p class="txt--clr-primary-1 fs-500 ff-primary-1">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut
+            enim ad minim veniam.</p>
+        </div>
+        <div class="main-text-box">
+          <h2 class="txt--clr-neutral-2 fs-800 ff-primary-2">Efficient</h2>
+          <p class="txt--clr-primary-1 fs-500 ff-primary-1">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut
+            enim ad minim veniam.</p>
+        </div>
+        <div class="main-text-box">
+          <h2 class="txt--clr-neutral-2 fs-800 ff-primary-2">Done right</h2>
+          <p class="txt--clr-primary-1 fs-500 ff-primary-1">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut
+            enim ad minim veniam.</p>
+        </div>
+      </div>
+    </div>
+    <div class="main__container-2">
+      <div class="container flex flex--column">
+        <div class="content-1 flex flex--column" style="gap: 2rem;">
+          <div class="flex flex--column">
+            <h2 class="ff-primary-2 fs-900 txt--clr-neutral-2">It doesn’t have to be so hard</h2>
+            <p class="ff-primary-1 fs-600 txt--clr-primary-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+          <img src="./imgs/the-image.jpg" alt="image">
+          <p class="ff-primary-1 fs-600 txt--clr-primary-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+        <div class="content-2 flex flex--column">
+          <div class="main-card">
+            <h2>Break it down</h2>
+            <p>Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut
+              labore et dolore magna aliqua.</p>
+          </div>
+          <div class="main-card">
+            <h2>Work your way up</h2>
+            <p>Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut
+              labore et dolore magna aliqua.</p>
+          </div>
+          <div class="main-card">
+            <h2>Repeat</h2>
+            <p>Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut
+              labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer__container">
+      <h1 class="fw-700 ff-primary-2 fs-950 txt--clr-neutral-1">Just scratching the surface</h1>
+      <div class="footer__list-box">
+        <div class="footer__list">
+          <h2>About our company</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+        <div class="footer__list">
+          <h2>About our company</h2>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer__list">
+          <h2>Other things</h2>
+          <a href="#">Lorem ipsum</a>
+          <a href="#">dolor</a>
+          <a href="#">sit amet</a>
+          <a href="#">consectetur</a>
+        </div>
+        <div class="footer__list">
+          <h2>And more</h2>
+          <a href="#">Lorem ipsum</a>
+          <a href="#">dolor</a>
+          <a href="#">sit amet</a>
+          <a href="#">consectetur</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
