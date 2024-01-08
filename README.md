@@ -14,4 +14,4 @@ Project Overview: [here](https://atosacik.github.io/Conquering-Responsive-Layout
 
 ## Acknowledgments
 
-Thanks a lot to Kevin Powell for very useful and simple course!
+Thanks a lot to Kevin Powell for a very useful and simple course!
